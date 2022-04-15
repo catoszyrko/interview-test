@@ -1,0 +1,275 @@
+/* globals */
+h1,h2,h3,h4,h5,h6{
+    margin:5px 0px;
+}
+body{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin:0px;
+}
+a{
+    font-size: 14px;
+    font-size: 'Open Sans';
+}
+
+.container{
+    margin:0px auto;
+    max-width:1140px;
+}
+
+/* Navigation links */
+.permalinks ul{
+    padding:0px;
+}
+.permalinks ul li{
+    display:inline;
+    margin:0px 10px;
+}
+.permalinks ul li a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* grid */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:-15px;
+    margin-left:-15px;
+}
+@media (min-width:576px){
+    .copy{
+        font-size: 16px;
+    }
+    .permalinks ul{
+        display: inline;
+    }
+    .col-12{
+        width:100%;
+    }
+    .col-6{
+        width:50%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-3{
+        width:25%;
+    }
+    
+    figure{
+        margin:0px;
+        padding:0px;
+        height:160px;
+        overflow: hidden;
+    }
+}
+
+
+/* ONLY MOBILE */
+@media (max-width:576px){
+    .head-line{
+        line-height: 70px;
+    }
+    .copy{
+        font-size: 22px;
+        margin-top:20px;
+    }
+    .container{
+        margin: 10px;
+    }
+    [class*="col-"] {
+        width:100%;
+    }
+    figure{
+        margin:0px;
+        padding:0px;
+        height:170px;
+        overflow:hidden;
+    }
+    .card-title-lg{
+        padding:0px 35px;
+    }
+}
+
+.card{
+    margin:15px;
+    height:100%;
+}
+
+[class*="col-"] {
+    margin-bottom: 30px;
+    flex-direction: row;
+}
+  
+
+.img-fluid{
+    width:100%;
+}
+
+.center{
+    text-align:center;
+}
+
+.small-bar{
+    height: 6px;
+    display: block;
+    width:30px;
+    margin: 5px auto;
+}
+
+
+.mt-4{
+    display:block;
+    margin-top:20px;
+}
+
+/* fonts */
+.navigation{
+    font-size: 18px;
+}
+.copy{
+    font-family: 'Open Sans';
+}
+.head-line{
+    font-size: 64px;
+    font-family: 'brandon-grotesque';
+}
+
+.shadow{
+    box-shadow:0px 5px 5px #ccc;
+}
+.card-type{
+    font-size: 14px;
+    font-family: "brandon-grotesque";
+}
+.card-title{
+    font-size: 20px;
+    margin:20px 15px;
+}
+.card-title-lg{
+    font-size: 28px;
+    margin:20px 15px;
+}
+
+/* font family */
+.card-title,.card-title-lg,.card-type{
+    font-family: 'brandon-grotesque';
+}
+
+.ml-2{
+    margin-left:15px;
+}
+.mr-2{
+    margin-right:15px;
+}
+
+.mt-4{
+    margin-top:20px;
+}
+
+
+/* colors */
+.green{    color: #7cb82f;}
+.orange{    color: #ff6900;}
+.cyan{    color: #0084ac;}
+.black{    color: #333333;}
+.dark-grey{    color: #888888;}
+.light-grey{    color: #b2b2b2;}
+.white{    color: #EEEEEE;}
+
+.bg-green{    background-color: #7cb82f;}
+.bg-orange{    background-color: #ff6900;}
+.bg-cyan{    background-color: #0084ac;}
+.bg-black{    background-color: #333333;}
+.bg-dark-grey{    background-color: #888888;}
+.bg-light-grey{    background-color: #b2b2b2;}
+
+.border-green{    border:2px solid #7cb82f;}
+.border-orange{    border:2px solid #ff6900;}
+.border-cyan{    border:2px solid #0084ac;}
+.border-black{   border:2px solid #333333;}
+.border-¿dark-grey{    border:2px solid #888888;}
+.border-light-grey{    border:2px solid #b2b2b2;}
+
+a{
+    color: #ff6900;
+    text-decoration: none;
+}
+
+.btn{
+    display:block;
+    font-weight: 500;
+    color: white;
+    font-size:18px;
+    font-family: 'brandon-grotesque';
+    padding:8px 30px;
+    border-radius:30px;
+    border:0px;
+}
+.centered{
+    display: block;
+    margin:0px auto;
+}
+
+/* header */
+nav{
+    display: flex;
+    padding:15px;
+    
+    flex: 2 1 auto;
+}
+.brand{
+    height:30px;
+    margin:10px;
+}
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+nav ul li a{
+    font-weight: bold;
+    color: #333333;
+    font-size: 18px;
+}   
+
+nav ul li a:hover{
+    opacity: 0.7;
+}   
+
+/* FORM */
+.input-form{
+    padding:7px 15px;
+    border-radius: 30px;
+    border:1px solid #333333;
+    
+}
+
+.search {
+    background: url('/assets/img/search-icon.png') no-repeat 10px 7px;
+    background-size: 20px;
+    padding-left:40px;
+    margin-top:10px;
+    min-width: 200px;
+    font-family: 'Open Sans';
+}
+
+.page-header, .pull-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* featured */
+figure{
+    position: relative;
+}
+.img-alt{
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding:2px 5px;
+    font-size:12px;
+    color: white;
+    z-index:100;
+}
