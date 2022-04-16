@@ -1,3 +1,4 @@
+/* vars */
 $primary-font: 'Open Sans';
 $secondary-font: 'brandon-grotesque';
 
@@ -9,7 +10,6 @@ $black : #333333;
 $dark-grey : #888888;
 $light-grey : #b2b2b2;
 $white : #EEEEEE;
-
 
 
 /* globals */
@@ -58,25 +58,37 @@ a{
     .permalinks ul{
         display: inline;
     }
-    .col-12{
-        width:100%;
+    .col-3{
+        width:25%;
+    }
+    .col-4{
+        width:33.3%;
     }
     .col-6{
         width:50%;
     }
+    .col-7{
+        width: 58.33%;
+    }
     .col-8{
         width: 66.66%;
     }
-    .col-3{
-        width:25%;
+    .col-12{
+        width:100%;
     }
-    
     figure{
         margin:0px;
         padding:0px;
         height:160px;
         overflow: hidden;
     }
+    .vertical-center{
+        margin-top:-20%;
+    }
+    .sm-none{
+        display:block;
+    }
+
 }
 
 
@@ -94,6 +106,8 @@ a{
     }
     [class*="col-"] {
         width:100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     figure{
         margin:0px;
@@ -103,6 +117,9 @@ a{
     }
     .card-title-lg{
         padding:0px 35px;
+    }
+    .sm-none{
+        display:none;
     }
 }
 
@@ -131,8 +148,19 @@ a{
     width:30px;
     margin: 5px auto;
 }
+.lg-bar{
+    height: 4px;
+    display: block;
+    width:50px;
+    margin: 5px auto;
+    background-color: $white;
+}
 
 
+.mb-0{
+    display:block;
+    margin-bottom:0px;
+}
 .mt-4{
     display:block;
     margin-top:20px;
@@ -176,10 +204,6 @@ a{
 }
 .mr-2{
     margin-right:15px;
-}
-
-.mt-4{
-    margin-top:20px;
 }
 
 
@@ -258,7 +282,6 @@ nav ul li a:hover{
     border:1px solid $black;
     
 }
-
 .search {
     background: url('/assets/img/search-icon.png') no-repeat 10px 7px;
     background-size: 20px;
@@ -274,6 +297,10 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 
+.pull-left{
+    float: left;
+}
+
 /* featured */
 figure{
     position: relative;
@@ -286,4 +313,15 @@ figure{
     font-size:12px;
     color: $white;
     z-index:100;
+}
+
+footer{
+    padding:30px 0px
+}
+footer ul{
+    list-style-type: none;
+    margin-left: 15px;
+    line-height: 40px;
+    padding: 0px;
+    font-size: 18px;
 }
