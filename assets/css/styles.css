@@ -63,6 +63,12 @@ a {
         -ms-flex: 0 0 33.3%;
             flex: 0 0 33.3%;
   }
+  .col-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.6%;
+            flex: 0 0 41.6%;
+    max-width: 41.6%;
+  }
   .col-6 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
@@ -72,6 +78,7 @@ a {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 58.33%;
             flex: 0 0 58.33%;
+    max-width: 58.3%;
   }
   .col-8 {
     -webkit-box-flex: 0;
@@ -134,6 +141,7 @@ a {
 }
 
 [class*="col-"] {
+  position: relative;
   margin-bottom: 30px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -165,12 +173,10 @@ a {
 }
 
 .mb-0 {
-  display: block;
   margin-bottom: 0px;
 }
 
 .mt-4 {
-  display: block;
   margin-top: 20px;
 }
 
