@@ -59,7 +59,7 @@ a{
         display: inline;
     }
     .col-3{
-        flex: 0 0 25%;
+        flex: 1 1 25%;
     }
     .col-4{
         flex: 0 0 33.3%;
@@ -328,4 +328,16 @@ footer ul{
     line-height: 40px;
     padding: 0px;
     font-size: 18px;
+}
+
+.card-type {
+    color:$dark-grey;
+    font-weight: bold;
+    margin-top:20px;
+    display: block;
+}
+
+/* more */
+#more{
+    display:flex;
 }

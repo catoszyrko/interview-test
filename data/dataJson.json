@@ -1,0 +1,35 @@
+[
+    {
+        "id": 0,
+        "category": "ARTICLE",
+        "title": "Dairy Farmers Going Green: <br>Where Cheese Comes From    ",
+        "subtitle": "",
+        "pictureURL": "assets/img/img-1.jpg"
+    },
+    {
+        "id": 1,
+        "category": "ARTICLE",
+        "title": "Dairy Farmers Going Green: <br>Where Cheese Comes From ",
+        "subtitle": "",
+        "pictureURL": "assets/img/img-2.png",
+        "featured": "yes"
+    },
+    {
+        "id": 2,
+        "category": "ARTICLE",
+        "title": "Dairy Farmers Going Green: <br>Where Cheese Comes From ",
+        "subtitle": "",
+        "pictureURL": "assets/img/img-3.png",
+        "featured": "yes"
+    
+    },
+    {
+        "id": 3,
+        "category": "VIDEO",
+        "title": "Dairy Farmers Going Green: <br>Where Cheese Comes From ",
+        "subtitle": "",
+        "pictureURL": "assets/img/img-4.png",
+        "featured": "yes"
+    
+    }
+]
